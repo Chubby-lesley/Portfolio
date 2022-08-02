@@ -1,0 +1,235 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("https://images.unsplash.com/photo-1613909207039-6b173b755cc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=947&q=80");
+	background-size: cover;
+	background-attachmen: fixed;
+	color: #fff;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+h2{
+	color: black;
+	font-size: 1.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
+	padding-bottom: 20px;
+} 
+
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	padding-top: 10px;
+}
+
+ul{
+	padding-left: 19px;
+}
+
+ /*Title section*/
+
+#title{
+	text-align: center;
+	padding-top: 5%;
+}
+
+.box{
+	background-color: RGBA(26,102,158,0.5);
+	padding-bottom: 20px;
+}
+
+.lesley{
+	color: #E8630A;
+	text-decoration: underline;
+}
+
+.y{
+	color: #E8630A;
+}
+
+.links{
+	padding: 20px;
+	color: #E8630A;
+}
+
+.links:hover{
+	color: #fff;
+}
+
+  /*About-Me section*/
+
+#about-me{
+	border: solid 1px white;
+	padding: 5% 5%;
+	margin: 5% 10%;
+	background-color: #fff;
+	color: #555;
+}
+
+  /*Skills section*/
+
+#skills{
+	border: solid 1px white;
+	padding: 5% 5%;
+	margin: 5% 10%;
+	background-color: #fff;
+	color: #555;
+}
+
+/* Projects section*/ 
+
+#Myprojects{
+	border: solid 1px #fff;
+	padding: 5% 5%;
+	margin: 5% 10%;
+	background-color: #fff;
+}
+
+.projects img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.projects h3{
+	color: #555;
+	padding-top: 5%;
+	font-weight: bolder;
+}
+
+
+/* Reviews section*/
+
+.carousel-inner{
+	border: solid 1px #fff;
+	color: #7F8487;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 5% 5%;
+	height: 450px;
+	width: 80%;
+	text-align: center;
+}
+
+.carousel-img{
+	border: solid 3px;
+	border-radius: 100%;
+	padding: 10px;
+	color: #1A669E;
+	opacity: .8;
+}
+
+.reviews h2{
+	color: #1A669E;
+	margin: 3% 7%;
+	font-family: montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+/*Social-network section*/
+
+#social-network{
+	border: solid 1px white;
+	padding: 5% 5%;
+	margin: 5% 10%;
+	background-color: #fff;
+	color: #555;
+}
+
+.social-links{
+	text-decoration: none;
+	color: #000;
+}
+
+.social-links:hover{
+	color: #E8630A;
+}
+
+ /*Contact Section*/
+
+ #contact{
+ 	border: solid 1px white;
+	padding: 5% 5%;
+	margin: 5% 10%;
+	background-color: #fff;
+	color: #7F8487;
+ }
+
+ .form-control{
+ 	background-color: #EEEEEE;
+ 	border-color: white;
+ }
+
+ .btn{
+ 	border-color: white;
+ 	border-radius: 20px;
+ 	background-color: #1A669E;
+ }
+
+ .btn:hover{
+	background-color: #E8630A;
+}
+
+  /* Footer Section*/
+
+  #footer{
+  	padding: 0 5% 5%;
+  }
+
+  .design-icon{
+  	padding-bottom: 2%;
+  	color: #E8630A;
+  }
+
+  .design-icon:hover{
+  	color: #fff;
+  }
+
+
+ /* Media Query Section*/
+
+  @media (max-width: 1028px) {
+  	.intro{
+  		padding-top: 5%;
+  	}
+
+  	.skills-intro{
+  		padding-top: 5%;
+  	}
+
+  	.carousel-inner h2{
+  		font-size: 1.5rem;
+  	}
+
+  	.socials{
+  		padding-top: 5%;
+  	}
+
+  	.projects img{
+  		padding: 5%;
+  	}
+
+  	.cruzX{
+  		margin-top: 3%;
+  	}
+  }
+
+  @media (min-width: 280px) and (max-width: 320px) {
+  	#about-me img{
+  		max-width: 100%;
+  		max-height: 100%;
+  	}
+
+  	#skills img{
+  		max-width: 100%;
+  		max-height: 100%;
+  	}
+
+  	.carousel-inner h2{
+  		font-size: 1.3rem;
+  	}
+  }
